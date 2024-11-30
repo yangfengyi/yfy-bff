@@ -1,0 +1,20 @@
+[2024-11-21T15:31:51.874] [ERROR] cheese - 404
+[2024-11-21T15:31:57.324] [ERROR] cheese - 404
+[2024-11-21T15:38:14.988] [ERROR] cheese - 404
+[2024-11-21T15:38:24.460] [ERROR] cheese - 404
+[2024-11-21T15:39:56.927] [ERROR] cheese - 404
+[2024-11-21T15:40:13.084] [ERROR] cheese - 404
+[2024-11-21T15:40:15.252] [ERROR] cheese - AwilixResolutionError: Could not resolve 'apiService'.
+
+Resolution path: apiService
+    at resolve (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix@12.0.3/node_modules/awilix/src/container.ts:528:15)
+    at Object.get (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix@12.0.3/node_modules/awilix/src/container.ts:286:52)
+    at new ApiController (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/routers/ApiController.ts:8:27)
+    at newClass (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix@12.0.3/node_modules/awilix/src/resolvers.ts:210:20)
+    at Object.resolve (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix@12.0.3/node_modules/awilix/src/resolvers.ts:482:14)
+    at Object.build (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix@12.0.3/node_modules/awilix/src/container.ts:637:48)
+    at memberInvoker (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/awilix-koa@11.0.0/node_modules/awilix-koa/src/invokers.ts:109:30)
+    at dispatch (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:42:32)
+    at /Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/@koa+router@12.0.2/node_modules/@koa/router/lib/router.js:423:16
+    at dispatch (/Users/yangfengyi/Dev/codeStation/course-code/yfy-bff/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:42:32)
+[2024-11-21T16:37:46.857] [ERROR] cheese - 404

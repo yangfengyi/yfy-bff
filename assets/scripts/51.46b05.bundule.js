@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkspa_interface=self.webpackChunkspa_interface||[]).push([[51],{51:(e,t,n)=>{n.r(t),n.d(t,{default:()=>a});var r=n(70),s=n(778);function a(){return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(s.mg,{children:(0,r.jsx)("title",{children:"About page title"})}),(0,r.jsx)("div",{children:"About page"})]})}}}]);
